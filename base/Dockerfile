@@ -15,5 +15,5 @@ COPY run.sh /root/
 EXPOSE 5000
 CMD bash /root/run.sh
 
-ONBUILD COPY corpora.yaml /root/dep_search/webui/
-ONBUILD COPY corpus_groups.yaml /root/dep_search/webui/
+ONBUILD COPY corpora.yaml /root/dep_search/webapi/
+ONBUILD COPY corpus_groups.yaml /root/dep_search/webapi/
