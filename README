@@ -1,0 +1,18 @@
+Container to execute University of Turku's dep_search API:
+
+- https://github.com/fginter/dep_search
+
+Forked from:
+
+- https://github.com/own-pt/conll-workbench/tree/master/dep_search-docker
+
+This image is meant to be a base for you own images, which are assumed to
+include a `corpus.yaml' and `corpus_groups.yaml` files.
+
+To build:
+
+docker build -t dep-search .
+
+To run locally:
+
+docker run -ti -p 5000:5000 dep-search
