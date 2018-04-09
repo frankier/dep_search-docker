@@ -10,12 +10,12 @@ ADD https://raw.githubusercontent.com/UniversalDependencies/UD_Finnish-FTB/maste
 
 ADD https://raw.githubusercontent.com/UniversalDependencies/UD_Finnish-PUD/master/fi_pud-ud-test.conllu fi_pud-ud-test.conllu
 
-RUN cat fi_tdt-ud-dev.conllu | python build_index.py --wipe -d fi_tdt-ud-dev.db
-RUN cat fi_tdt-ud-test.conllu | python build_index.py --wipe -d fi_tdt-ud-test.db
-RUN cat fi_tdt-ud-train.conllu | python build_index.py --wipe -d fi_tdt-ud-train.db
+RUN cat fi_tdt-ud-dev.conllu | python /root/dep_search/build_index.py --wipe -d fi_tdt-ud-dev.db
+RUN cat fi_tdt-ud-test.conllu | python /root/dep_search/build_index.py --wipe -d fi_tdt-ud-test.db
+RUN cat fi_tdt-ud-train.conllu | python /root/dep_search/build_index.py --wipe -d fi_tdt-ud-train.db
 
-RUN cat fi_ftb-ud-dev.conllu | python build_index.py --wipe -d fi_ftb-ud-dev.db
-RUN cat fi_ftb-ud-test.conllu | python build_index.py --wipe -d fi_ftb-ud-test.db
-RUN cat fi_ftb-ud-train.conllu | python build_index.py --wipe -d fi_ftb-ud-train.db
+RUN cat fi_ftb-ud-dev.conllu | python /root/dep_search/build_index.py --wipe -d fi_ftb-ud-dev.db
+RUN cat fi_ftb-ud-test.conllu | python /root/dep_search/build_index.py --wipe -d fi_ftb-ud-test.db
+RUN cat fi_ftb-ud-train.conllu | python /root/dep_search/build_index.py --wipe -d fi_ftb-ud-train.db
 
-RUN cat fi_pud-ud-test.conllu | python build_index.py --wipe -d fi_pud-ud-test.db
+RUN cat fi_pud-ud-test.conllu | python /root/dep_search/build_index.py --wipe -d fi_pud-ud-test.db
