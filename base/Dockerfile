@@ -5,8 +5,9 @@ MAINTAINER frankie@robertson.name
 WORKDIR /root/
 
 
-RUN apk add --no-cache python2 git sqlite-libs sqlite-dev python2-dev cython uwsgi \
-	py2-flask build-base py2-requests py2-yaml bash
+RUN apk add --no-cache python2 git sqlite-libs sqlite-dev python2-dev \
+	cython cython-dev uwsgi py2-flask build-base py2-requests \
+	py2-yaml bash
 
 COPY setup.sh /root/
 RUN bash setup.sh
