@@ -4,7 +4,9 @@ MAINTAINER frankie@robertson.name
 
 WORKDIR /root/
 
-RUN apt-get update -y && apt-get install -y git libsqlite3-dev python-dev cython uwsgi python-flask python3-flask build-essential python3-requests python-requests python-yaml python3-yaml && apt-get clean
+
+RUN apk add --no-cache python git libsqlite3-dev python-dev cython uwsgi \
+	python-flask build-essential python-requests python-yaml
 
 COPY setup.sh /root/
 RUN bash setup.sh
