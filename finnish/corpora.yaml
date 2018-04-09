@@ -1,0 +1,27 @@
+finnish_tdt_dev:
+  paths: /path/to/fi_tdt-ud-dev.db
+  name: "Finnish TDT dev"
+
+finnish_tdt_test:
+  paths: /path/to/fi_tdt-ud-test.db
+  name: "Finnish TDT test"
+
+finnish_tdt_train:
+  paths: /path/to/fi_tdt-ud-train.db
+  name: "Finnish TDT train"
+
+finnish_ftb_dev:
+  paths: /path/to/fi_ftb-ud-dev.db
+  name: "Finnish FTB dev"
+
+finnish_ftb_test:
+  paths: /path/to/fi_ftb-ud-test.db
+  name: "Finnish FTB test"
+
+finnish_ftb_train:
+  paths: /path/to/fi_ftb-ud-train.db
+  name: "Finnish FTB train"
+
+finnish_pud_test:
+  paths: /path/to/fi_pud-ud-test.db
+  name: "Finnish PUD test"

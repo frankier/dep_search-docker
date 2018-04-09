@@ -1,0 +1,2 @@
+  name: "All"
+  corpora: finnish_tdt_dev, finnish_tdt_test, finnish_tdt_train, finnish_ftb_dev, finnish_ftb_test, finnish_ftb_train, finnish_pud_test
